@@ -1,0 +1,6 @@
+#include<iostream>
+using std::cin;
+using std::cout;
+int main(void) {
+    return 0;
+}
