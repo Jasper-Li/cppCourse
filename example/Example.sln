@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2", "2.vcxproj", "{8666911E-88E3-4AF4-AC50-FA1B02B22FEF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2", "2\2.vcxproj", "{8666911E-88E3-4AF4-AC50-FA1B02B22FEF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpp_standard", "..\cpp_standard\cpp_standard.vcxproj", "{A4620B82-2EB3-463F-B251-968A679FA1F3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpp_standard", "cpp_standard\cpp_standard.vcxproj", "{A4620B82-2EB3-463F-B251-968A679FA1F3}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpp_version", "..\cpp_version\cpp_version.vcxproj", "{E87E3C42-AC81-4246-8D46-97EA66F120ED}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpp_version", "cpp_version\cpp_version.vcxproj", "{E87E3C42-AC81-4246-8D46-97EA66F120ED}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "template_test", "..\template_test\template_test.vcxproj", "{A8B24679-BB8E-419D-A367-7188E3F9408E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "template_test", "template_test\template_test.vcxproj", "{A8B24679-BB8E-419D-A367-7188E3F9408E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "prepair", "prepair", "{3120C2C5-8AAA-423C-9105-D38B64843875}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_test1", "..\2_test1\2_test1.vcxproj", "{A0ADCA47-F1B5-4366-A9AD-230058F8263E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_test1", "2_test1\2_test1.vcxproj", "{A0ADCA47-F1B5-4366-A9AD-230058F8263E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_test2", "..\2_test2\2_test2.vcxproj", "{55A49FF4-4C26-45E8-8DBA-A876D712EC31}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_test2", "2_test2\2_test2.vcxproj", "{55A49FF4-4C26-45E8-8DBA-A876D712EC31}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4.2_separate", "4.2_separate\4.2_separate.vcxproj", "{323EB337-2E2C-4545-810F-ADE7DAFCF87B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +75,14 @@ Global
 		{55A49FF4-4C26-45E8-8DBA-A876D712EC31}.Release|x64.Build.0 = Release|x64
 		{55A49FF4-4C26-45E8-8DBA-A876D712EC31}.Release|x86.ActiveCfg = Release|Win32
 		{55A49FF4-4C26-45E8-8DBA-A876D712EC31}.Release|x86.Build.0 = Release|Win32
+		{323EB337-2E2C-4545-810F-ADE7DAFCF87B}.Debug|x64.ActiveCfg = Debug|x64
+		{323EB337-2E2C-4545-810F-ADE7DAFCF87B}.Debug|x64.Build.0 = Debug|x64
+		{323EB337-2E2C-4545-810F-ADE7DAFCF87B}.Debug|x86.ActiveCfg = Debug|Win32
+		{323EB337-2E2C-4545-810F-ADE7DAFCF87B}.Debug|x86.Build.0 = Debug|Win32
+		{323EB337-2E2C-4545-810F-ADE7DAFCF87B}.Release|x64.ActiveCfg = Release|x64
+		{323EB337-2E2C-4545-810F-ADE7DAFCF87B}.Release|x64.Build.0 = Release|x64
+		{323EB337-2E2C-4545-810F-ADE7DAFCF87B}.Release|x86.ActiveCfg = Release|Win32
+		{323EB337-2E2C-4545-810F-ADE7DAFCF87B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
